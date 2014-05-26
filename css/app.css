@@ -6613,8 +6613,16 @@ th.hide-for-touch {
   height: 100px;
 }
 
-ul.daysofweek > li {
-  outline: 1px solid red;
-  background: yellow;
-  color: red;
+ul.days-of-week > li {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  border-color: white;
+  border-width: 10px;
+  color: white;
+}
+
+.currentday {
+  background-color: green;
+  color: white;
 }
