@@ -1,0 +1,2089 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addOrRemove"
+			],
+			[
+				"has",
+				"hasClass	.hasClass"
+			],
+			[
+				"read",
+				"ready	jq-dom-ready"
+			],
+			[
+				"random",
+				"randomnumber"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"attr",
+				"attr(attributeName, value, attributes, attributeName, function(index, attr)) -> $"
+			],
+			[
+				"each",
+				"each	.each()"
+			],
+			[
+				"app",
+				"appendTo	.appendTo()"
+			],
+			[
+				"flower",
+				"flower-items"
+			],
+			[
+				"color",
+				"Colorbox"
+			],
+			[
+				"prop",
+				"prop	.prop() - single"
+			],
+			[
+				"cli",
+				"click	click"
+			],
+			[
+				"check",
+				"checkbox-group"
+			],
+			[
+				"tog",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			],
+			[
+				"jq",
+				"jq-boilerplate	jQuery Plugin Boilerplate"
+			],
+			[
+				"jquery",
+				"jQuery.get	jQuery.get"
+			],
+			[
+				"work",
+				"workMarker"
+			],
+			[
+				"home",
+				"homeMarker"
+			],
+			[
+				"shipping",
+				"shippingMethod"
+			],
+			[
+				"por",
+				"portfolio_meta_nonce"
+			],
+			[
+				"portfolio_qu",
+				"portfolio_quote_author  (variable)"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"tex-t",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"tran",
+				"transition	CSS - transition: ;"
+			],
+			[
+				"trans",
+				"transition:   (property)"
+			],
+			[
+				"tra",
+				"transition	CSS - transition: ;"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"last",
+				"last-of-type  (pseudo-class)"
+			],
+			[
+				"background-",
+				"background-image:   (property)"
+			],
+			[
+				"serv",
+				"serviceSection"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"footer",
+				"footerContainer"
+			],
+			[
+				"facebook",
+				"facebook"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"Art",
+				"ARTICLE	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "day-tracker.html",
+			"settings":
+			{
+				"buffer_size": 769,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "day-tracker.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_day-tracker.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 359.0,
+		"selected_items":
+		[
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set javascript",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"readme",
+				"ReadmePlease"
+			],
+			[
+				"jqu",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"set syntax j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: jQuery.browser"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: jquery",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"gist",
+				"Gist: Open Gist"
+			],
+			[
+				"list pac",
+				"Package Control: List Packages"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"set syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Code Folding: Unfold All"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"data",
+				"Emmet: Encode\\Decode Image to data:URL"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"disable ",
+				"Package Control: Disable Package"
+			],
+			[
+				"set syntax sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"subli",
+				"SublimeCodeIntel: Enable Live Autocompletion"
+			],
+			[
+				"disal",
+				"SublimeCodeIntel: Disable Live Autocompletion"
+			],
+			[
+				"set ",
+				"Set Syntax: CSS"
+			],
+			[
+				"gist ",
+				"Gist: Insert Gist"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"scs",
+				"Set Syntax: SCSS"
+			],
+			[
+				"stack",
+				"Stackoverflow: Search from Input"
+			],
+			[
+				"insert g",
+				"Gist: Insert Gist"
+			],
+			[
+				"gis",
+				"Gist: Insert Gist"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"install pak",
+				"Package Control: Install Package"
+			],
+			[
+				"hml",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"in",
+				"Gist: Insert Gist"
+			],
+			[
+				"insert gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"insert",
+				"Gist: Insert Gist"
+			],
+			[
+				"insert ",
+				"Gist: Insert Gist"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"open ",
+				"Gist: Open Gist"
+			],
+			[
+				"color",
+				"Color picker"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"disb",
+				"Package Control: Disable Package"
+			],
+			[
+				"readm",
+				"ReadmePlease"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"inser",
+				"Gist: Insert Gist"
+			],
+			[
+				"html5",
+				"Set Syntax: HTML5"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"list packages",
+				"Package Control: List Packages"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"github",
+				"Github: Open File"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"git lo",
+				"Git: Log Current File"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"git",
+				"Git: Diff Tool Current File"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"package remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install package ",
+				"Package Control: Install Package"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove paka",
+				"Package Control: Remove Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"set c",
+				"Set Syntax: CSS"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ul",
+				"Snippet: <ul>"
+			],
+			[
+				"snipp",
+				"Snippet: HTML - Script"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 174.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/carl/Dropbox/ausweb/scss/_paint-canvas.scss",
+		"/Users/carl/Dropbox/ausweb/paint-canvas.html",
+		"/Users/carl/Dropbox/ausweb/js/paint-canvas.js",
+		"/Users/carl/Dropbox/ausweb/css/app.css",
+		"/Users/carl/Dropbox/ausweb/package.json",
+		"/Users/carl/Dropbox/ausweb/gulpfile.js",
+		"/Users/carl/Dropbox/ausweb/ausweb.sublime-project",
+		"/Users/carl/Dropbox/ausweb/scss/app.scss",
+		"/Users/carl/Dropbox/ausweb/js/select-plan.js",
+		"/Users/carl/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/carl/Dropbox/ausweb/bower_components/foundation/scss/foundation.scss",
+		"/Users/carl/Dropbox/ausweb/scss/_custom.scss",
+		"/Users/carl/Library/Application Support/Sublime Text 2/Packages/Foundation 5 Snippets/README.mdown",
+		"/Users/carl/Dropbox/ausweb/random-background-colour.html",
+		"/Users/carl/Dropbox/ausweb/js/random-background-colour.js",
+		"/Users/carl/Dropbox/ausweb/js/app.js",
+		"/Users/carl/Dropbox/ausweb/hosting-guide.html",
+		"/Users/carl/Dropbox/ausweb/js/select-plan-test.js",
+		"/Users/carl/Dropbox/ausweb/js/select-plan-test2.js",
+		"/Users/carl/Dropbox/ausweb/bower_components/reveal.js/index.html",
+		"/Users/carl/Dropbox/ausweb/scss/_settings.scss",
+		"/Users/carl/Dropbox/JqueryForWD/0204/start/build-a-bouquet.html",
+		"/Users/carl/Dropbox/JqueryForWD/0204/start/classy.html",
+		"/Users/carl/Dropbox/foundation5/hosting-guide.html",
+		"/Users/carl/Dropbox/foundation5/js/select-plan.js",
+		"/Users/carl/Dropbox/foundation5/scss/_custom.scss",
+		"/Users/carl/Dropbox/JqueryForWD/0205/start/addremove.html",
+		"/Users/carl/Dropbox/JqueryForWD/0507/start/animate.html",
+		"/Users/carl/Dropbox/JqueryForWD/0506/start/animate.html",
+		"/Users/carl/Dropbox/JqueryForWD/0505/start/animate.html",
+		"/Users/carl/Dropbox/JqueryForWD/0503/end/animate.html",
+		"/Users/carl/Dropbox/JqueryForWD/0503/start/animate.html",
+		"/Users/carl/Library/Application Support/Sublime Text 2/Packages/User/trailing_spaces.sublime-settings",
+		"/Users/carl/Dropbox/JqueryForWD/0502/start/animate.html",
+		"/Users/carl/Dropbox/JqueryForWD/0401/start/colorbox.html",
+		"/Users/carl/Dropbox/JqueryForWD/0304/start/contact.htm",
+		"/Users/carl/Dropbox/JqueryForWD/0305/end/contact.htm",
+		"/Users/carl/Dropbox/JqueryForWD/0303/start/contact.htm",
+		"/Users/carl/Library/Application Support/Sublime Text 2/Packages/jQuery Snippets pack/README.md",
+		"/Users/carl/Dropbox/JqueryForWD/0302/start/contact.htm",
+		"/Users/carl/Dropbox/JqueryForWD/0301/start/contact.htm",
+		"/Users/carl/Dropbox/JqueryForWD/petal/css/improved.css",
+		"/Users/carl/Dropbox/JqueryForWD/petal/js/all.js",
+		"/Users/carl/Dropbox/JqueryForWD/0203/start/build-a-bouquet.html",
+		"/Users/carl/Dropbox/JqueryForWD/0202/start/build-a-bouquet.html",
+		"/Users/carl/Dropbox/JqueryForWD/0201/end/ready.html",
+		"/Users/carl/Dropbox/foundation5/google-maps.html",
+		"/Users/carl/Dropbox/foundation5/js/google-maps.js",
+		"/Users/carl/Library/Application Support/Sublime Text 2/Packages/User/jq-dom-ready.sublime-snippet",
+		"/Users/carl/Library/Application Support/Sublime Text 2/Packages/SASS Snippets/README_pt-BR.md",
+		"/Users/carl/Dropbox/foundation5/js/calculate-shipping-jquery.js",
+		"/Users/carl/Dropbox/foundation5/calculate-shipping.html",
+		"/Users/carl/Dropbox/writing/docs/javascript.mdown",
+		"/Users/carl/Dropbox/foundation5/foundation5.sublime-project",
+		"/Y/Archive/Web/Dropbox/myblog/_config.yml",
+		"/Y/Archive/Web/Dropbox/myblog/index.html",
+		"/Y/Archive/Web/Dropbox/foundation5/scss/_settings.scss",
+		"/Y/Archive/Web/Dropbox/foundation5/grid-test.html",
+		"/Y/Archive/Web/Dropbox/foundation5/home-template.html",
+		"/Y/Archive/Downloads/celine",
+		"/Y/Archive/Web/Dropbox/foundation5/scss/_custom.scss",
+		"/Y/Archive/Web/Dropbox/foundation5/scss/app.scss",
+		"/Y/Archive/Web/Dropbox/foundation5/f5-index.html",
+		"/Y/Archive/Web/Dropbox/foundation5/config.rb",
+		"/Y/Archive/Web/Dropbox/foundation5/css/app.css",
+		"/Y/Archive/Web/Dropbox/foundation5/bower_components/foundation/scss/foundation/_settings.scss",
+		"/Y/Archive/Web/Dropbox/foundation5/bower_components/foundation/scss/foundation/components/_grid.scss",
+		"/Y/Archive/Web/Dropbox/foundation5/bower_components/foundation/scss/foundation.scss",
+		"/Y/Archive/Web/Dropbox/foundation5/bower_components/foundation/scss/foundation/components/_global.scss",
+		"/Y/Archive/Web/Dropbox/foundation5/grid-offset.html",
+		"/Y/Archive/Web/Dropbox/foundation5/grid-center.html",
+		"/Y/Archive/Web/Dropbox/foundation5/grid-test-small.html",
+		"/Y/Archive/Web/Dropbox/foundation5/scss/custom.scss",
+		"/Y/Archive/Web/Dropbox/wisdompets/sass/app.scss",
+		"/Y/Archive/Web/Dropbox/wisdompets/sass/_settings.scss",
+		"/Y/Archive/Web/Dropbox/wisdompets/sass/foundation/components/_panels.scss",
+		"/Y/Archive/Web/Dropbox/wisdompets/sass/_custom.scss",
+		"/Y/Archive/Web/Dropbox/wisdompets/about.html",
+		"/Y/Archive/Web/Dropbox/wisdompets/index.html",
+		"/Y/Archive/Web/Dropbox/wisdompets/services.html",
+		"/Y/Archive/Web/Dropbox/wisdompets/dogs.html",
+		"/Y/Archive/Work/Web Projects/Liquid Web/Modelling/1st email.txt",
+		"/Y/Archive/Web/Dropbox/wisdompets/css/custom.css",
+		"/Y/Archive/Web/Dropbox/wisdompets/config.rb",
+		"/Y/Archive/Downloads/foundation-master/foundation-master/README.md",
+		"/C/Users/Carl/.profile",
+		"/Y/Archive/Web/Dropbox/wisdompets/sass/_normalize.scss",
+		"/Y/Archive/Web/Dropbox/wisdompets/sass/foundation/components/_type.scss",
+		"/Y/Archive/Web/Dropbox/wisdompets/sass/_foundation.scss",
+		"/Y/Archive/Web/Dropbox/wisdompets/css/app.css",
+		"/Y/Archive/Web/Dropbox/blog/.gitignore",
+		"/C/Ruby200-x64/devkit/config.yml",
+		"/Y/Archive/Work/Web Projects/Liquid Web/Modelling/Last Minute Test Shoot.txt",
+		"/Y/Archive/Downloads/alex keaton 23.06.13/alex keaton 23.06.13.txt",
+		"/Y/Archive/Work/Web Projects/Andrew/Google Analytics Code.txt",
+		"/Y/Archive/Downloads/Microsoft Office ProPlus 2013 VL RTL x64 en-US Sep2013/Office ProPlus 2013 VL.txt",
+		"/Y/Archive/Downloads/Export/.htaccess",
+		"/X/Photos/Carl/Final/New/index.html",
+		"/Y/Archive/Software/apps/Microsoft Office ProPlus 2013 VL x64 en-US Jun2013/Office ProPlus 2013 VL.txt",
+		"/Y/Archive/Downloads/BIND9.9.4/readme1st.txt",
+		"/W/Music/Surgeon/Surgeon - Food For Thought/tracklist.txt",
+		"/Y/Archive/Software/apps/Office 2010/Office.2010.Toolkit.and.EZ-Activator.2.2.3/info.txt",
+		"/C/Users/Carl/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Y/Archive/Downloads/type_and_grids_free/type_and_grids_free/index.html",
+		"/Y/Archive/Web/Dropbox/blog/sass/master.scss",
+		"/Y/Archive/Downloads/connect-ssh",
+		"/C/Users/Carl/.bashrc",
+		"/C/Users/Carl/.ssh/known_hosts",
+		"/Y/Archive/Software/apps/VMware Workstation/v10/Serial.txt",
+		"/Y/Archive/Downloads/etax-password.txt",
+		"/Y/Archive/Web/Dropbox/blog/grid-test.html",
+		"/Y/Archive/Software/photos/Adobe Lightroom 5/Plugins/LREnfuse Serial.txt",
+		"/Y/Archive/Downloads/type_and_grids_free/type_and_grids_free/js/script.js",
+		"/Y/Archive/Downloads/type_and_grids_free/type_and_grids_free/css/themes/color_13.css",
+		"/Y/Archive/Downloads/type_and_grids_free/type_and_grids_free/css/base.css",
+		"/Y/Archive/Web/Dropbox/blog/index-foundation.html",
+		"/Y/Archive/Web/Dropbox/blog/css/master.css",
+		"/Y/Archive/Web/Dropbox/blog/template.html",
+		"/Y/Archive/Web/Dropbox/jtest/template.html",
+		"/Y/Archive/Web/Dropbox/jtest/index.html",
+		"/Y/Archive/Web/Dropbox/jtest/_layouts/post.html",
+		"/Y/Archive/Web/Dropbox/jtest/_config.yml",
+		"/Y/Archive/Web/Dropbox/jtest/_posts/2013-09-25-sixth-post.md",
+		"/Y/Archive/Web/Dropbox/jtest/_posts/2013-09-25-first-post.md",
+		"/Y/Archive/Web/Dropbox/jtest/_posts/2013-09-25-fith-post.md",
+		"/Y/Archive/Web/Dropbox/jtest/_posts/2013-09-25-fourth-post.md",
+		"/Y/Archive/Web/Dropbox/jtest/_posts/2013-09-25-third-post.md",
+		"/Y/Archive/Web/Dropbox/jtest/_posts/2013-09-25-second-post.md"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ul",
+			"div",
+			"id=\"paint-cell\"",
+			"large",
+			"2px",
+			"h2",
+			"h1",
+			"cell_large",
+			"cell_regular",
+			"id",
+			"h2",
+			"personal",
+			"id",
+			" button",
+			"large",
+			"left",
+			"objects",
+			"Objects",
+			"alert",
+			"r_method",
+			"row",
+			"container",
+			"grid",
+			"large-",
+			"small-",
+			"panel",
+			"primary-color",
+			"body-bg",
+			"large-",
+			"images",
+			"Options FollowSymlinks",
+			"mod_rewrite",
+			"mod_rewrte",
+			"mod",
+			"../images",
+			"../",
+			"featured",
+			"evolve",
+			"ul",
+			"blah.html",
+			"d",
+			">\n",
+			"h2",
+			"row",
+			"nav",
+			"#fb6938",
+			"img",
+			"home",
+			"demo-1.jpg",
+			"cardContainer",
+			"img",
+			"../",
+			"1s",
+			"3",
+			"2",
+			"order",
+			"1",
+			"5s",
+			"large",
+			"huge",
+			"img",
+			"for",
+			"menu",
+			"dash",
+			"outline",
+			"z-index",
+			"green",
+			"container",
+			"center",
+			"menu",
+			"smallBox",
+			"largeBox",
+			"mediumBox",
+			"largeBox",
+			"mediumBox",
+			"fddashboard",
+			"ul",
+			"Paris Hilton",
+			"statusMessage",
+			"label",
+			"status",
+			"main",
+			"img",
+			"width",
+			"max-width",
+			"img",
+			"virtual",
+			"z-index",
+			"nav",
+			"li",
+			"114px",
+			"li",
+			"column",
+			"center",
+			"right",
+			"0",
+			"> <",
+			"cf",
+			"red",
+			"box",
+			"blue",
+			"box",
+			"orange",
+			"box",
+			"no-flexbox",
+			"_img",
+			"ul",
+			"5em",
+			"fooer",
+			"7",
+			"5px",
+			"footer",
+			"status",
+			"Vimeo",
+			"vimeo",
+			"recentProjects",
+			"socialMedia",
+			"<a href=\"#\" title=\"Design\">",
+			"outline",
+			"5",
+			".aside",
+			".slats",
+			"float",
+			".aside",
+			"footer",
+			".main",
+			"float",
+			"nav"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"medium-",
+			"large-",
+			"small-",
+			" images",
+			" ",
+			"#",
+			"row-fluid",
+			"demo1.jpg",
+			"box",
+			"../img",
+			"../_img",
+			"../img",
+			"/responsive/",
+			"/",
+			"container1",
+			"container3",
+			"container2",
+			"container3",
+			"container2",
+			"fbdashboard",
+			"Sally Poon",
+			"><",
+			"../_img",
+			"../_",
+			"contributor",
+			"4314",
+			"source.css, source.sass, source.stylus",
+			"blah",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "day-tracker.html",
+					"settings":
+					{
+						"buffer_size": 769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2.0,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5.0,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10.0,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": false,
+								"box-sizing": "false",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"camelcase": true,
+								"curly": true,
+								"evil": true,
+								"quotmark": "single",
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "hard",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "day-tracker.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": false,
+								"box-sizing": "false",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"camelcase": true,
+								"curly": true,
+								"evil": true,
+								"quotmark": "single",
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "hard",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_day-tracker.scss",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": false,
+								"box-sizing": "false",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"camelcase": true,
+								"curly": true,
+								"evil": true,
+								"quotmark": "single",
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "hard",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tem",
+				"foundation-template.html"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"app",
+				"css/app.css"
+			],
+			[
+				"app.css",
+				"scss/app.scss"
+			],
+			[
+				"select",
+				"js/select-plan.js"
+			],
+			[
+				"paint",
+				"js/paint-canvas.js"
+			],
+			[
+				"custom",
+				"scss/_custom.scss"
+			],
+			[
+				"",
+				"foundation-template.html"
+			],
+			[
+				"se",
+				"select-plan.html"
+			],
+			[
+				"hos",
+				"hosting-guide.html"
+			],
+			[
+				"ap",
+				"scss/app.scss"
+			],
+			[
+				"_s",
+				"scss/_settings.scss"
+			],
+			[
+				"sel",
+				"js/select-plan.js"
+			],
+			[
+				"hosting",
+				"hosting-guide.html"
+			],
+			[
+				"s",
+				"scss/_settings.scss"
+			],
+			[
+				"animate",
+				"0507/start/animate.html"
+			],
+			[
+				"animate.html",
+				"0506/start/animate.html"
+			],
+			[
+				"animat",
+				"0502/start/animate.html"
+			],
+			[
+				"colorbox",
+				"0401/start/colorbox.html"
+			],
+			[
+				"contact",
+				"0304/start/contact.htm"
+			],
+			[
+				"contact.",
+				"0302/start/contact.htm"
+			],
+			[
+				"contact.htm",
+				"0301/start/contact.htm"
+			],
+			[
+				"addremove",
+				"0205/start/addremove.html"
+			],
+			[
+				"class",
+				"0204/start/classy.html"
+			],
+			[
+				"all.js",
+				"petal/js/all.js"
+			],
+			[
+				"improv",
+				"petal/css/improved.css"
+			],
+			[
+				"build-a",
+				"0204/start/build-a-bouquet.html"
+			],
+			[
+				"build",
+				"0202/start/build-a-bouquet.html"
+			],
+			[
+				"ready",
+				"0201/end/ready.html"
+			],
+			[
+				"cal",
+				"calculate-shipping.html"
+			],
+			[
+				"calcu",
+				"js/calculate-shipping.js"
+			],
+			[
+				"inde",
+				"f5-index.html"
+			],
+			[
+				"_setting",
+				"scss/_settings.scss"
+			],
+			[
+				"_settings",
+				"scss/_settings.scss"
+			],
+			[
+				"_grid",
+				"bower_components/foundation/scss/foundation/components/_grid.scss"
+			],
+			[
+				"foundation",
+				"bower_components/foundation/scss/foundation.scss"
+			],
+			[
+				"found",
+				"bower_components/foundation/scss/foundation.scss"
+			],
+			[
+				"setting",
+				"scss/_settings.scss"
+			],
+			[
+				"grid-test",
+				"grid-test-large.html"
+			],
+			[
+				"grid",
+				"grid-test-small.html"
+			],
+			[
+				"_cus",
+				"scss/_custom.scss"
+			],
+			[
+				"foundation.scss",
+				"bower_components/foundation/scss/foundation.scss"
+			],
+			[
+				"settin",
+				"scss/_settings.scss"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"about",
+				"wisdompets/about.html"
+			],
+			[
+				"dog",
+				"wisdompets/dogs.html"
+			],
+			[
+				"service",
+				"wisdompets/services.html"
+			],
+			[
+				"panel",
+				"wisdompets/sass/foundation/components/_panels.scss"
+			],
+			[
+				"dogs",
+				"wisdompets/dogs.html"
+			],
+			[
+				"custom.sc",
+				"wisdompets/sass/_custom.scss"
+			],
+			[
+				"cus",
+				"wisdompets/css/custom.css"
+			],
+			[
+				"c",
+				"wisdompets/config.rb"
+			],
+			[
+				"_type",
+				"wisdompets/sass/foundation/components/_type.scss"
+			],
+			[
+				"_founda",
+				"wisdompets/sass/_foundation.scss"
+			],
+			[
+				"_n",
+				"wisdompets/sass/_normalize.scss"
+			],
+			[
+				"cu",
+				"wisdompets/css/custom.css"
+			],
+			[
+				"d",
+				"wisdompets/dogs.html"
+			],
+			[
+				"abo",
+				"wisdompets/about.html"
+			],
+			[
+				"a",
+				"wisdompets/sass/app.scss"
+			],
+			[
+				"i",
+				"wisdompets/index.html"
+			],
+			[
+				"confi",
+				"wisdompets/config.rb"
+			],
+			[
+				"master",
+				"sass/master.scss"
+			],
+			[
+				"templ",
+				"template.html"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"style",
+				"css/styles.css"
+			],
+			[
+				"sty",
+				"less/styles.less"
+			],
+			[
+				"layout",
+				"less/layout.less"
+			],
+			[
+				"styles",
+				"less/styles.less"
+			],
+			[
+				"port",
+				"portfolio.html"
+			],
+			[
+				"st",
+				"sass/style.scss"
+			],
+			[
+				"boots",
+				"sass/bootstrap.css"
+			],
+			[
+				"home",
+				"bloghome.html"
+			],
+			[
+				"home.scss",
+				"sass/home.scss"
+			],
+			[
+				"godzill",
+				"_css/godzilla-magazine.css"
+			],
+			[
+				"godz",
+				"godzilla-magazine/index.html"
+			],
+			[
+				"home.scs",
+				"sass/home.scss"
+			],
+			[
+				"boot",
+				"_css/bootstrap-demo2.css"
+			],
+			[
+				"bootstrap-demo2.html",
+				"bootstrap-demo2/index.html"
+			],
+			[
+				"bootstrap-demo",
+				"_css/bootstrap-demo2.css"
+			],
+			[
+				"multipl",
+				"_css/multiple-column-demo.css"
+			],
+			[
+				"multi",
+				"_css/multiplecolumn.css"
+			],
+			[
+				"home.c",
+				"_css/home.css"
+			],
+			[
+				"home.css",
+				"_css/home.css"
+			],
+			[
+				"home.",
+				"home.html"
+			],
+			[
+				"slogo",
+				"_img/bootstrap-demo2/slogo.svg"
+			],
+			[
+				"produ",
+				"bootstrap-demo/product-single.html"
+			],
+			[
+				"init",
+				"sass/initLogin.scss"
+			],
+			[
+				"initl",
+				"sass/initLogin.scss"
+			],
+			[
+				"sidr",
+				"js/sidr/stylesheets/jquery.sidr.dark2.css"
+			],
+			[
+				"jquery.sidr",
+				"js/sidr/stylesheets/jquery.sidr.dark2.css"
+			],
+			[
+				"todo",
+				"TODO.mdown"
+			],
+			[
+				"no",
+				"NOTES.mdown"
+			],
+			[
+				"notes",
+				"NOTES.mdown"
+			],
+			[
+				"_base",
+				"sass/_base.scss"
+			],
+			[
+				"noti",
+				"js/noti.js"
+			],
+			[
+				"fblog",
+				"fbLogin.html"
+			],
+			[
+				"sider",
+				"js/sidr/stylesheets/jquery.sidr.dark2.css"
+			],
+			[
+				"flexbox",
+				"flexbox-test.html"
+			],
+			[
+				"plugins",
+				"js/plugins.js"
+			],
+			[
+				"config",
+				"config.rb"
+			],
+			[
+				"_nor",
+				"sass/_normalize.scss"
+			],
+			[
+				"initdas",
+				"css/initDashboard.css"
+			],
+			[
+				"initd",
+				"sass/initDashboard.scss"
+			],
+			[
+				"initlogin",
+				"sass/initLogin.scss"
+			],
+			[
+				"initlo",
+				"sass/initLogin.scss"
+			],
+			[
+				"flex",
+				"flexbox-test.html"
+			],
+			[
+				"_base.scss",
+				"sass/_base.scss"
+			],
+			[
+				"fbd",
+				"fbDashboard.html"
+			],
+			[
+				"fbl",
+				"fbLogin.html"
+			],
+			[
+				"base",
+				"sass/_base.scss"
+			],
+			[
+				"initdashboard",
+				"sass/initDashboard.scss"
+			],
+			[
+				"fb_",
+				"fb_login.html"
+			],
+			[
+				"fb_login",
+				"fb_login.html"
+			],
+			[
+				"init.css",
+				"css/init.css"
+			],
+			[
+				"_flex",
+				"sass/_flexgrid.sass"
+			],
+			[
+				"appli",
+				"sass/application.scss"
+			],
+			[
+				"flexbo",
+				"flexbox-test.html"
+			],
+			[
+				"fb_logo",
+				"img/nav/fb_logo_test.svg"
+			],
+			[
+				"bg_",
+				"bgimage_test.html"
+			],
+			[
+				"ini",
+				"sass/init.scss"
+			],
+			[
+				"n",
+				"NOTES.mdown"
+			],
+			[
+				"_norma",
+				"sass/_normalize.scss"
+			],
+			[
+				"_norm",
+				"sass/_normalize.scss"
+			],
+			[
+				"main.js",
+				"js/main.js"
+			],
+			[
+				"plugin",
+				"js/plugins.js"
+			],
+			[
+				"norma",
+				"css/normalize.css"
+			],
+			[
+				"main",
+				"css/main.css"
+			],
+			[
+				"nor",
+				"css/normalize.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/carl/Dropbox/gswj/gswj.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true
+}

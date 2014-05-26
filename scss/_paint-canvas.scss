@@ -1,0 +1,54 @@
+@import "compass/css3/box-shadow";
+
+.paint-background {
+	background-color: #ccc;
+}
+
+%outline {
+	outline: 1px dotted black;
+}
+
+.push-down {
+	margin-bottom: 1em;
+}
+
+.paint-ui-background {
+	@include box-shadow;
+	background-color: white;
+	padding: 1em;
+}
+
+#paint-ui>div {
+	border: 1px solid black;
+	height: 100px;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.white {
+	background-color: white;
+}
+
+#canvas {
+	// @extend %outline;
+}
+
+#canvas>div>div {
+	// @extend %outline;
+	border-top: 2px solid black;
+	border-left: 2px solid black;
+	height: 100px;
+	// borer-right: 10px solid black;
+}
+
+

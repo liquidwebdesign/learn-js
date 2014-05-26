@@ -1,0 +1,16 @@
+.button {
+	background-color: grey;
+}
+
+.button:hover, .button:focus {
+	background-color: #008cba;
+}
+.active-button {
+	background-color: #008cba;
+}
+
+/*
+.active-button:hover, .active-button:focus {
+	background-color: #008cba;
+}
+*/
