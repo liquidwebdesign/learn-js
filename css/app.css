@@ -6623,6 +6623,6 @@ ul.days-of-week > li {
 }
 
 ul.days-of-week > li.currentday {
-  background-color: green;
+  background-color: blue;
   color: white;
 }
