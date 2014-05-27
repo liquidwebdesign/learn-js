@@ -7,7 +7,7 @@ ul.days-of-week>li {
 	color: white;
 }
 
-.currentday {
+ul.days-of-week>li.currentday {
 	background-color: green;
 	color: white;
 }

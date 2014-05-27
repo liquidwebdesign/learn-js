@@ -6,27 +6,32 @@ $(document).ready(function() {
 
 	switch (weekday) {
 		case 0:
-		console.log('Sunday');
+		$('li#tuesday').addClass('currentday');
+		$('#output').append('<h1>Today is Sunday</h1>');
 		break;
 		case 1:
-		console.log('Monday');
 		$('li#monday').addClass('currentday');
-		$('#output').append("I hate Monday!");
+		$('#output').append('<h1>Today is Monday</h1>');
 		break;
 		case 2:
-		console.log('Tuesday');
+		$('li#tuesday').addClass('currentday');
+		$('#output').append('<h1>Today is Tuesday</h1>');
 		break;
 		case 3:
-		console.write('Wednesday');
+		$('li#tuesday').addClass('currentday');
+		$('#output').append('<h1>Today is Wednesday</h1>');
 		break;
 		case 4:
-		console.write('Thursday');
+		$('li#tuesday').addClass('currentday');
+		$('#output').append('<h1>Today is Thursday</h1>');
 		break;
 		case 5:
-		console.write('Friday');
+		$('li#tuesday').addClass('currentday');
+		$('#output').append('<h1>Today is Friday</h1>');
 		break;
 		case 6:
-		console.write('Saturday');
+		$('li#tuesday').addClass('currentday');
+		$('#output').append('<h1>Today is Saturday</h1>');
 		break;
 	}
 
