@@ -6632,6 +6632,9 @@ ul.days-of-week > li.currentday {
   color: white;
 }
 
-.configure-grid {
+.cell {
   background-color: grey;
+  float: left;
+  width: 100px;
+  height: 100px;
 }
