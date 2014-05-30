@@ -6626,3 +6626,12 @@ ul.days-of-week > li.currentday {
   background-color: blue;
   color: white;
 }
+
+.colour-boxes {
+  background-color: black;
+  color: white;
+}
+
+.configure-grid {
+  background-color: grey;
+}
