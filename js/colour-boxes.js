@@ -6,7 +6,7 @@ $(document).ready(function() {
 
 	$('.cell').mouseover(function (event) {
 		var randomColour = '#' + Math.random().toString(16).slice(2,8);
-		$(this).css('background-color', randomColour);
+		$(this).css('background-color', randomColour).toggleClass('hover');
 	});
 
 });
