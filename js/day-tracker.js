@@ -18,19 +18,19 @@ $(document).ready(function() {
 		$('#output').append('<h1>Today is Tuesday</h1>');
 		break;
 		case 3:
-		$('li#tuesday').addClass('currentday');
+		$('li#wedneday').addClass('currentday');
 		$('#output').append('<h1>Today is Wednesday</h1>');
 		break;
 		case 4:
-		$('li#tuesday').addClass('currentday');
+		$('li#thursday').addClass('currentday');
 		$('#output').append('<h1>Today is Thursday</h1>');
 		break;
 		case 5:
-		$('li#tuesday').addClass('currentday');
+		$('li#friday').addClass('currentday');
 		$('#output').append('<h1>Today is Friday</h1>');
 		break;
 		case 6:
-		$('li#tuesday').addClass('currentday');
+		$('li#saturday').addClass('currentday');
 		$('#output').append('<h1>Today is Saturday</h1>');
 		break;
 	}
