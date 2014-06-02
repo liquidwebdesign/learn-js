@@ -4,6 +4,8 @@
 }
 
 .cell {
+	position: relative;
+	z-index: 1;
 	background-color: grey;
 	float: left;
 	width: 100px;
@@ -11,5 +13,11 @@
 }
 
 .hover {
-	box-shadow: 1px 2px .5 3 white;
+	z-index: 1000;
+	box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 1);
+}
+
+.hover-off {
+	z-index: 1;
+	box-shadow: none;
 }
