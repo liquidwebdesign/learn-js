@@ -2,7 +2,7 @@
 	"folders":
 	[
 		{
-			"path": "/Users/carl/Dropbox/ausweb",
+			"path": "/Users/carl/Dropbox/learnJS",
 			"folder_exclude_patterns": ["node_modules", "js/min", "bower_components", ".git", ".sass-cache"]
 		}
 	]
