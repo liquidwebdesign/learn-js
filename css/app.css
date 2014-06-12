@@ -6650,3 +6650,10 @@ ul.days-of-week > li.currentday {
   z-index: 1;
   box-shadow: none;
 }
+
+.cloud {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  box-shadow: 0px 0px 30px 0px white;
+}

@@ -9,7 +9,30 @@
 </head>
 <body>
 
-	<h1 id="headline">Carl Rocks</h1>
+	<div class="row">
+
+		<div id="primary" class="small-12 medium-12 large-12 columns">
+
+			<h1 id="header">Heading</h1>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, libero beatae amet itaque ab ipsum dolor repellendus veritatis repellat quos.
+			</p>
+
+			<div class="more">
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, nulla, esse ipsa quia at optio dolores in hic non soluta voluptas ut nihil voluptate voluptatibus perferendis reprehenderit natus! Numquam, maxime perferendis alias saepe doloribus vero aperiam delectus beatae voluptates architecto adipisci fuga dolorem consequatur voluptate ratione quisquam officiis consectetur dignissimos porro quos error quas possimus doloremque repudiandae itaque temporibus modi provident omnis unde quidem tempore esse totam a commodi sapiente necessitatibus suscipit nulla quis dolores similique illum ex? Ut, iste quos rem laudantium cum accusantium placeat culpa adipisci aspernatur beatae consectetur corporis. Atque, asperiores totam sequi nesciunt beatae corporis doloremque.
+				</p>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, laboriosam debitis voluptatem distinctio placeat facere nobis rem nihil quia provident fugiat deserunt consectetur! Esse, minima, ullam repellendus perferendis cupiditate iste repudiandae velit earum assumenda saepe veritatis eaque dicta quos odit delectus iure tempora voluptas sed laboriosam accusantium! Iste, fuga, voluptatem laborum officia error nihil voluptas ipsam sit placeat alias et aliquam aperiam fugiat dolorum libero earum harum deleniti natus explicabo optio vitae quibusdam magni modi cum incidunt quam neque odio! Dolores, unde, non, nobis, nulla facilis rem nisi temporibus itaque eius inventore harum incidunt et ad blanditiis vitae a sed?
+				</p>
+
+			</div>
+
+		</div>
+	</div>
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/foundation/js/foundation.min.js"></script>
@@ -19,17 +42,26 @@
 
 	$(document).ready(function() {
 
-		// $('<img>').attr('src', 'images/cloud.png').appendTo('body');
+		$readmores = $('.more');
 
-		$('<img>').attr({
-			src: 'images/cloud.png',
-			alt: 'Cloud',
-			id: 'theCloudImage',
-			title: 'myCloudImage',
-			width: '100%',
-			height: '100%'
-		})
-		.appendTo('body');
+		$readmores.hide().before('<a class="read-more" href="#">Read More</a>');
+
+		$readmores.append('<a class="read-less" href="#">Read Less</a>');
+
+		$('#primary').click(function(event) {
+
+			var $t = $(event.target);
+
+			if ($t.is('.read-more')) {
+				$t.hide();
+				$t.siblings('.more').slideDown();
+				event.preventDefault();
+			} else if ($t.is('.read-less')) {
+				$t.parents('.more').slideUp();
+				$t.parents('.more').siblings('.read-more').show();
+				event.preventDefault();
+			}
+		});
 
 	});
 
