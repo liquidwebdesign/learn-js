@@ -1,0 +1,158 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Calculate Shipping</title>
+	<link rel="stylesheet" href="css/app.css" />
+	<script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+
+<body>
+
+	<div class="row">
+
+		<div class="large-12 columns">
+			<h1><small>Calculate Shipping</small></h1>
+		</div>
+
+	</div>
+
+	<form id="cart-oil">
+
+		<div class="row">
+
+			<div class="large-3 columns">
+
+				<h2><small>Extra Virgin, Cold-Pressed</small></h2>
+
+				<p>You've never tasted olive oil this delicious.</p>
+
+				<p>Price: $10/bottle</p>
+
+				<label for="txt-q-extra">Quantity Desired
+					<input type="text" id="txt-q-extra" placeholder="0" />
+				</label>
+			</div>
+
+			<div class="large-3 columns">
+
+				<h2><small>Cold-Pressed</small></h2>
+
+				<p>Ideal for cooking.</p>
+
+				<p>Price: $8/bottle</p>
+
+				<label for="txt-q-cold">Quantity Desired
+					<input type="text" id="txt-q-cold" placeholder="0" />
+				</label>
+			</div>
+
+			<div class="large-3 columns">
+				<h2><small>Garlic-infused</small></h2>
+
+				<p>If you love garlic, this is the one for you.</p>
+
+				<p>Price: $10/bottle</p>
+
+				<label for="txt-q-garlic">Quantity Desired
+					<input type="text" id="txt-q-garlic" placeholder="0" />
+				</label>
+			</div>
+
+			<div class="large-3 columns">
+				<h2><small>Lemon-infused</small></h2>
+
+				<p>If you love lemon, this is the one for you.</p>
+
+				<p>Price: $12/bottle</p>
+
+				<label for="txt-q-lemon">Quantity Desired
+					<input type="text" id="txt-q-lemon" placeholder="0" />
+				</label>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div id="summary" class="large-12 columns">
+				<h2><small>Estimate Order</small></h2>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div id="summary" class="large-2 columns">
+				<label for="s-state">State
+					<select id="s-state">
+
+						<option value="">- select -</option>
+						<option value="NSW">NSW</option>
+						<option value="VIC">VIC</option>
+						<option value="QLD">QLD 6.5% Tax</option>
+						<option value="SA">SA</option>
+						<option value="WA">WA</option>
+						<option value="NT">NT</option>
+						<option value="TAS">TAS 7.5% Tax</option>
+
+					</select>
+				</label>
+			</div>
+
+			<div class="large-5 columns">
+
+				<label for="r-method-pickup">Shipping Method</label>
+
+				<input type="radio" name="r_method" value="pickup" id="r-method-pickup" checked>
+				<label for="r-method-pickup">Pickup</label>
+
+				<input type="radio" name="r_method" value="post" id="r-method-post">
+				<label for="r-method-post">Australia Post ($2/bottle)</label>
+
+				<input type="radio" name="r_method" value="courier" id="r-method-courier">
+				<label for="r-method-courier">Courier ($3/bottle)</label>
+
+			</div>
+
+			<div class="large-5 columns">
+
+				<label for="c-special-gift">Special</label>
+				<input type="checkbox" value="YES" id="c-special-gift">
+				<label for="c-special-gift">This is a gift</label>
+
+				<input type="checkbox" value="YES" id="c-special-gold">
+				<label for="c-special-gold">Use gold-flecked bottles</label>
+
+				<input type="checkbox" value="YES" id="c-special-cork">
+				<label for="c-special-cork">Use plastic caps instead of cork</label>
+
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="large-3 columns">
+				<label for="btn-estimate">Click to estimate:</label>
+				<input class="button small radius" id="btn-estimate" type="submit" value="Estimate Total">
+				<input id="txt-estimate" type="text" placeholder="$0.00">
+			</div>
+
+		</div>
+
+	</form>
+
+	<div class="row">
+		<div class="large-12 columns" id="results"></div>
+	</div>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/foundation/js/foundation.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/calculate-shipping-jquery.js"></script>
+
+</body>
+</html>

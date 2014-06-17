@@ -6669,4 +6669,5 @@ ul.days-of-week > li.currentday {
   height: 100px;
   background: green;
   border-radius: 50px;
+  box-shadow: 0 0 0 0 black;
 }
