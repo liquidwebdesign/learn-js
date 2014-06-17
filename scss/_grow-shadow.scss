@@ -1,6 +1,21 @@
-.cloud {
-	position: absolute;
-	top: 20%;
-	left: 30%;
-	box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 1);
+.circle-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 100%;
+}
+
+.circle {
+
+	order: 0;
+	flex: 0 1 auto;
+	align-self: auto;
+
+	width: 100px;
+	height: 100px;
+	background: green;
+	border-radius: 50px;
 }
