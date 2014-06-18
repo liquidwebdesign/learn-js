@@ -15,9 +15,12 @@
 
 			<h1 id="header">Heading</h1>
 
-			<a id="magic-link" href="#">Insert some external content below</a>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quis facere voluptatum autem mollitia, repudiandae placeat culpa sunt cupiditate doloribus.
+			</p>
 
-			<p></p>
+			<button id="day" data-time="day">Day</button>
+			<button id="night" data-time="night">Night</button>
 
 		</div>
 
@@ -31,15 +34,30 @@
 
 <script>
 
-"use strict";
-
 $(document).ready(function() {
+	$('button').on('click', function() {
 
-	$('#magic-link').click(function( ) {
+		var selectBody = $('body'),
+		selectTime = $(this).attr('id'),
+		$this = $(this);
 
-		$.get('scratch-pad-snippet.html', function(data) {
-			$(data).hide().appendTo('#primary').slideDown();
-		}, 'html');
+		if ( selectTime === "day" ) {
+			selectBody
+			.css('background-color', 'yellow')
+			.css('color', 'black');
+			$this
+			.attr('disabled', 'disabled')
+			.siblings('button')
+			.removeAttr('disabled');
+		} else {
+			selectBody
+			.css('background-color', 'black')
+			.css('color', 'white');
+			$this
+			.attr('disabled', 'disabled')
+			.siblings('button')
+			.removeAttr('disabled');
+		}
 
 	});
 
