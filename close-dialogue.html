@@ -1,0 +1,176 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Javascript Scratch Pad</title>
+	<link rel="stylesheet" href="css/app.css" />
+
+	<style>
+
+	body {
+		width: 600px;
+		margin: auto;
+	}
+
+	#contact {
+		background: #e3e3e3;
+		padding: 1em 2em;
+		position: relative;
+	}
+
+	.js #contact {
+		position: absolute;
+		top: 0;
+		width: inherit;
+		display: none;
+	}
+
+	#contact h2 {
+		margin-top: 0;
+	}
+
+	#contact ul {
+		padding: 0;
+	}
+
+	#contact li {
+		list-style: none;
+		margin-bottom: 1em;
+	}
+
+	.close {
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+
+	</style>
+
+	<script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+<body>
+
+	<div class="row">
+
+		<div class="medium-12 large12 columns">
+
+			<article>
+
+				<h1><small>My Awesome Post</small></h1>
+
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis hic possimus, commodi! Ratione laborum delectus consectetur expedita perferendis ipsum laudantium ex rem, iste modi suscipit fugit doloremque deleniti laboriosam nisi.
+				</p>
+
+				<p>
+					Ad dolorem illum, rerum alias ullam magni tempora, et quo modi ex nulla, quis labore ipsam expedita eaque minima porro quas atque quia saepe obcaecati reiciendis a? Mollitia, vel, excepturi.
+				</p>
+
+			</article>
+
+			<div id="contact">
+
+				<h1><small>Contact Me</small></h1>
+
+				<form action="#">
+
+					<ul>
+
+						<li>
+							<label for="name">Name: </label>
+							<input name="email" id="name">
+						</li>
+
+						<li>
+							<label for="email">Email: </label>
+							<input name="email" id="email">
+						</li>
+
+						<li>
+							<label for="comments">What's Up?</label>
+							<textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+						</li>
+
+						<li>
+							<input type="submit" value="Submit">
+						</li>
+
+					</ul>
+
+				</form>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/foundation/js/foundation.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<script>
+
+	$(document).ready(function() {
+
+		$('html').addClass('js');
+
+		var contactForm = {
+
+			container: $('#contact'),
+
+			config: {
+				effect: 'slideToggle',
+				speed: 500
+			},
+
+			init: function(config) {
+				$.extend(this.config, config);
+				$('<button></button>', {
+					text: 'Contact Me'
+				})
+				.insertAfter('article:first')
+				.on('click', this.show);
+			},
+
+			show: function() {
+				var cf = contactForm,
+				container = cf.container,
+				config = cf.config;
+
+				if (container.is(':hidden')) {
+					contactForm.close.call(container);
+					container[config.effect](config.speed);
+				}
+			},
+
+			close: function() {
+				var $this = $(this);
+
+				if ( $this.find('span.close').length ) return;
+
+				$('<span class="close">X</span>')
+				.prependTo(this)
+				.on('click', function() {
+					$this[contactForm.config.effect](contactForm.config.speed);
+				})
+
+			}
+
+		};
+
+		contactForm.init({
+			effect: 'fadeToggle',
+			speed: 300
+		});
+
+	});
+
+	</script>
+
+</body>
+
+</html>
