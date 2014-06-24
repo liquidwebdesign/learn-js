@@ -1,17 +1,22 @@
 $(document).ready(function() {
 
-	var $ball = $('div.bouncing-ball');
+	function bounceBall() {
 
-	$ball.on('click', function(event) {
-		event.preventDefault();
-		$ball.velocity(
-			{
-				'width': 100,
-				'top': 220
-			}, 1000, 'swing', function() {
-			console.log('Animation complete!');
+		var $windowHeight = $('.ball-container').innerHeight();
+		console.log($windowHeight);
+
+		var $ball = $('div.bouncing-ball');
+
+		var ballSpeed = 2000;
+
+		$ball.velocity({'top': $windowHeight}, ballSpeed, 'easeInQuad', function() {
+			$ball.velocity({'top': 0}, ballSpeed, 'easeOutQuad', function () {
+				bounceBall();
+			});
 		});
-	});
+	}
+
+	bounceBall();
 
 });
 
