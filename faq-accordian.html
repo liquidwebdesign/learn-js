@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Javascript Scratch Pad</title>
+	<link rel="stylesheet" href="css/app.css" />
+	<script src="bower_components/modernizr/modernizr.js"></script>
+</head>
+<body>
+
+	<div class="row">
+
+		<div id="primary" class="small-12 medium-12 large-12 columns">
+
+			<dl>
+				<dt><h1><small>First Item</small></dt>
+
+				<dd><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda voluptatum dicta officiis? Reprehenderit est, consequatur possimus cupiditate magni vel officiis?</p></dd>
+
+				<dt><h1><small>Second Item</small></h1></dt>
+
+				<dd><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis atque numquam tenetur unde id voluptatibus vero soluta nostrum, perferendis vitae.</p></dd>
+
+				<dt><h1><small>Third Item</small></h1></dt>
+
+				<dd><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium modi ut quis ea quas blanditiis inventore necessitatibus saepe at adipisci!</p></dd>
+
+				<dt><h1><small>Fourth Item</small></h1></dt>
+
+				<dd><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium modi ut quis ea quas blanditiis inventore necessitatibus saepe at adipisci!</p></dd>
+
+				<dt><h1><small>Fith Item</small></h1></dt>
+
+				<dd><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium modi ut quis ea quas blanditiis inventore necessitatibus saepe at adipisci!</p></dd>
+			</dl>
+
+		</div>
+
+	</div>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/foundation/js/foundation.min.js"></script>
+	<script src="js/app.js"></script>
+
+	<script>
+
+	$(document).ready(function() {
+
+		$('dd').filter(':nth-child(n+4)').hide();
+
+		$('dl').on('mouseenter', 'dt', function() {
+			$(this)
+			.next()
+			.slideDown(200)
+			.siblings('dd')
+			.slideUp(200);
+		});
+
+	});
+
+	</script>
+
+</body>
+
+</html>
