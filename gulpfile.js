@@ -4,7 +4,7 @@ var gulp = require('gulp');
 // Include Our Plugins
 
 var compass = require('gulp-compass');
-
+var autoprefixer = require('gulp-autoprefixer');
 var livereload = require('gulp-livereload');
 
 gulp.task('compass', function() {
@@ -14,6 +14,7 @@ gulp.task('compass', function() {
 		css: 'css',
 		sass: 'scss'
 	}))
+	.pipe(autoprefixer('last 1 version', 'android 4'))
 	.pipe(gulp.dest('css'));
 });
 
