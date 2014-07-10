@@ -1,3 +1,15 @@
-.push-down {
-	padding-top: 4rem;
+.fruit-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-around;
+}
+
+ul.fruit-container li {
+	flex: 1 1 auto;
+	width: 250px;
+	height: 250px;
+	padding: 2rem;
+	list-style-type: none;
 }
