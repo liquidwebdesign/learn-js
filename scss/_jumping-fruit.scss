@@ -1,15 +1,17 @@
 .fruit-container {
+	height: 100%;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: space-around;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
 }
 
 ul.fruit-container li {
+	// outline: 1px dotted black;
 	flex: 1 1 auto;
-	width: 250px;
-	height: 250px;
-	padding: 2rem;
+	// width: 200px;
+	// height: 250px;
+	padding: 1.5rem;
 	list-style-type: none;
 }
