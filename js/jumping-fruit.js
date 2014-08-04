@@ -1,12 +1,23 @@
-$(document).ready(function() {
+// $(document).ready(function() {
 
-	$('img').on('click', function() {
+// 	function rotateFruit() {
 
-		console.log('You clicked me!');
-		$(this).velocity({
-			rotateZ: '50deg'
-		});
+// 		$(this).velocity({
+// 			rotateZ: [360, 0]
+// 		}, {
+// 			duration: 'slow',
+// 			easing: 'easeInBack',
+// 			delay: false
+// 		});
 
-	});
+// 	}
 
-});
+// 	$('ul.fruit-container li img').on('click', function() {
+
+// 		$(this).velocity({ translateX: -50 }, 100, 'swing');
+// 		$(this).velocity({ translateX: 50 }, 100, 'swing');
+// 		$(this).velocity({ translateX: 0 }, 100, 'swing');
+
+// 	});
+
+// });

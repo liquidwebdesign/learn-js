@@ -15,3 +15,16 @@ ul.fruit-container li {
 	padding: 1.5rem;
 	list-style-type: none;
 }
+
+ul.fruit-container img:hover {
+	animation: spinner 2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes spinner {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(1800deg);
+	}
+}
