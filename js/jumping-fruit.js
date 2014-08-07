@@ -1,23 +1,29 @@
-// $(document).ready(function() {
+$(document).ready(function() {
 
-// 	function rotateFruit() {
+	var animations = [ 'spinner',
+	'explode',
+	'rattle',
+	'shuffle',
+	'whipper' ];
 
-// 		$(this).velocity({
-// 			rotateZ: [360, 0]
-// 		}, {
-// 			duration: 'slow',
-// 			easing: 'easeInBack',
-// 			delay: false
-// 		});
+	function getRandomInt (min, max) {
+		return Math.floor(Math.random() * (max - min + 1)) + min;
 
-// 	}
+		// var item = items[Math.floor(Math.random()*items.length)];
+	}
 
-// 	$('ul.fruit-container li img').on('click', function() {
+	$('ul.fruit-container').on ('click', 'img', function () {
+		var sushi = this;
+		var animation = animations[getRandomInt(0, 4)];
 
-// 		$(this).velocity({ translateX: -50 }, 100, 'swing');
-// 		$(this).velocity({ translateX: 50 }, 100, 'swing');
-// 		$(this).velocity({ translateX: 0 }, 100, 'swing');
+		$(sushi).addClass(animation);
 
-// 	});
+		setTimeout(function () {
+			$(sushi).removeClass(animation);
+		}, 2100);
+	});
 
-// });
+
+
+
+});
