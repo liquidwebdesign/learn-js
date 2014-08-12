@@ -7239,3 +7239,49 @@ ul.fruit-container li {
   -webkit-animation: whipper 2s;
           animation: whipper 2s;
 }
+
+.clock-container {
+  height: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: red;
+}
+
+.clock-container div {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.clock-container h1 {
+  font-family: 'Arvo', serif;
+  font-style: normal;
+  color: white;
+  font-size: 4rem;
+}
+
+div.clock-container h2 {
+  font-family: 'Arvo', serif;
+  font-style: normal;
+  color: white;
+  font-size: 10rem;
+}
