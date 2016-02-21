@@ -1,4 +1,6 @@
 /.sass-cache/*
+/node_modules/*
+/css/*
 *.DS_Store
 .DS_Store?
 ._*
@@ -6,9 +8,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-learnJS.sublime-workspace
-learnJS.sublime-project
-scratch-pad.html
-scratch-pad-alt.html
-scss/_scratch-pad.scss
+learnjs.sublime-workspace
+learnjs.sublime-project
 
