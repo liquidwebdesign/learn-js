@@ -45,3 +45,31 @@
 		border-radius: @border-radius;
 	}
 }
+
+// Nesting
+
+.container {
+	p {
+		color: yellow;
+	}
+
+	li {
+		a {
+			color: red;
+			&:hover {
+				color: brown;
+			}
+		}
+		&.first {
+			color: red;
+		}
+	}
+}
+
+.one_half {
+	float: left;
+	width: 50%;
+	> .column_content {
+		padding-right: 15px;
+	}
+}
