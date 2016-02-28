@@ -40,3 +40,48 @@ if (var1 === var2) {
 	console.log("They are not equal!");
 }
 
+// Equality with different data types
+
+var3 = "50";
+var4 = 50;
+if (var3 === var4) {
+	console.log("They are equal.");
+} else {
+	console.log("They are not equal.");
+}
+
+// Logical and/or operators
+
+var5 = "50";
+var6 = 50;
+if ( (var3 === var4) && (var5 === var6) ) {
+	console.log("They are equal.");
+} else {
+	console.log("They are not equal.");
+}
+
+var5 = "50";
+var6 = 50;
+if ( (var3 === var4) || (var5 === var6) ) {
+	console.log("They are equal.");
+} else {
+	console.log("They are not equal.");
+}
+
+// Modulus
+
+var year = 2003;
+var remainder = year % 4;
+console.log(remainder);
+
+// Increment/Decrement
+
+a = a + 1;
+a += 1;
+a++;
+++a;
+
+a = a - 1;
+a -= 1;
+a--;
+--a;
