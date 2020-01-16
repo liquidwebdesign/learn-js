@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  margin: 0;
+  font-size: 16px; }
+
+input,
+button,
+submit {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+ol,
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  display: block; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  transition: .3s; }
+
+body {
+  margin: 40px;
+  font-family: "Open Sans", "sans-serif";
+  background-color: #fff;
+  color: #444; }
+
+h1,
+p {
+  margin: 0 0 1em 0; }
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 20px;
+  display: grid;
+  grid-gap: 10px; }
+
+/* no grid support? */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap; }
+
+.wrapper {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(150px, auto); }
+
+.panel {
+  /* needed for the flex layout*/
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px; }
+
+.header,
+.footer {
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 0 1 100%;
+  grid-column: 1 / -1; }
+
+.wrapper > * {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  margin-bottom: 10px; }
+
+/* We need to set the margin used on flex items to 0 as we have gaps in grid.  */
+@supports (display: grid) {
+  .wrapper > * {
+    margin: 0; } }
